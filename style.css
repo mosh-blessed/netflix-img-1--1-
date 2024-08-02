@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:  Arial;
+}
+.home{
+    background-image: linear-gradient( rgba(2, 2, 2, 0.7),rgba(2, 2, 2, 0.7)), url('images/header-image.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.home .nav-roll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+.logo img{
+    width: 100px;
+}
+.left-nav{
+    display: flex;
+}
+.left-nav b{
+    padding: 5px 7px;
+    border: 1px solid rgb(237, 235, 235, 0.8);
+    border-radius: 5px;
+    color: rgb(237, 235, 235, 0.8);
+    font-size: 14px;
+    font-weight: normal;
+    background: transparent;
+}
+.left-nav b img{
+    width: 7px;
+    color: rgb(237, 235, 235, 0.8);
+}
+.left-nav button {
+    background-color:#d81f26;
+    padding: 5px 7px;
+    color: rgb(237, 235, 235, 0.9);
+    font-size: 14px;
+    margin-left: 10px;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.hero-text{
+    justify-content: center;
+    color: #fff;
+    display: grid;
+    flex-wrap: wrap;
+    position:relative;
+    bottom: -25vh;
+    text-align: center;
+    align-content: center;
+}
+.hero-text h1{
+    font-size: 71px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255, 0.9);
+    margin-bottom: 0px;
+    
+}
+.hero-text h4{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255,);  
+}
+.hero-text p{
+    font-size: 16px;
+    margin: 20px 0px;
+    color: rgb(255, 255, 255,);
+}
+.search{
+    display: flex;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.search input{
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    margin-right: 1px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+.search-btn{
+    padding: 10px 51px;
+    background-color: #d81f26;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    text-wrap: nowrap;
+    color: #fff;
+}
+.ads-page{   
+    background: black;
+    color: #fff;
+}
+.min-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 15%;
+}
+.left-ads h3{
+    font-size: 30px;
+    margin: 0;
+}
+.left-ads h6{
+    font-size: 16px;
+    margin: 15px 0px;
+    line-height: 1.4;
+    font-weight: lighter;
+}
+.right-ads img{
+    width: 100%;
+}
+.question-section{
+    justify-content: center;
+    align-content: center;
+    margin: 0 5%;
+    margin-bottom: 0px;
+}
+.question-section h4{
+    text-align: center;
+    color: #fff;
+    margin: 15px 0px;
+}
+.min-section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.min-min{
+    background-color: rgb(25, 25, 25);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0px;
+    width: 500px;
+    color: #fff;
+   
+}
+.hero-text-2{
+    justify-content: center;
+    color: #fff;
+    display: grid;
+    flex-wrap: wrap;
+    position:relative;
+    text-align: center;
+    margin: 30px 0 30px;
+    align-content: center;
+}
+.hero-text-2 p{
+    font-size: 16px;
+    margin: 20px 0px;
+    color: rgb(255, 255, 255,);
+}
+.question-section hr{
+    background-color: rgb(82, 82, 82, 0);
+}
+.footer{
+    margin: 15px 20%;
+    color: rgb(82, 82, 82);
+    font-size: 14px;
+}
+.footer h6{
+    font-size: 16px;
+}
+.footer-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.faq, .HELP, .acc, .media{
+    display: flex;
+    flex-direction: column;
+}
+.footer-tab p{
+    margin-bottom: 7px;
+}
+
+.lang p{
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    margin: 20px 0px;
+    border-radius: 3px;
+    width: 100px;
+    align-items: center;
+   justify-content: center;
+    display: flex;
+}
+.lang p img{
+    width: 7px;
+    margin-left: 5px;
+    height: 7px;
+}
+@media 403px*879px  {
+    
+}
